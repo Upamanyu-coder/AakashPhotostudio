@@ -688,6 +688,32 @@ background-color: rgba(0,0,0,0.5);
 .contact-section .social-links a:hover img{
 	opacity:0.5;
 }
+
+button {
+	background-color: #FF9800;
+ 	color:#ffffff;
+ 	border:2px solid transparent;
+ 	padding:10px 35px;
+ 	border-radius: 30px;
+ 	line-height: 1.5;
+ 	cursor: pointer;
+ 	text-decoration: none;
+ 	font-size: 16px;
+ 	font-weight: 600;
+ 	display: inline-block;
+ 	transition: all 0.5s ease;
+ }
+ button:hover{
+ 	background-color: transparent;
+ 	border-color:#FF9800;
+ 	color:#FF9800;
+ }
+button:focus{
+ 	outline: none;
+ }
+
+	
+
 /* copyright */
 .copyright{
 	border-top:1px solid #c5c5c5;
@@ -777,5 +803,4 @@ background-color: rgba(0,0,0,0.5);
     }
 }
 
-
-
+}

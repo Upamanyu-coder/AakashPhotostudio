@@ -18,6 +18,10 @@
       }
     })
 
+    function sendEmail() {
+      window.location.href = "mailto:ysbk98@gmail.com";
+  }
+
     // fixed header 
     $(window).scroll(function(){
       if($(this).scrollTop() > 100){
